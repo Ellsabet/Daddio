@@ -22,7 +22,7 @@
     height: 300px;
     display: flex;
     border-width: 2px;
-    margin: 60px;
+    margin: 150px;
   border-color: #ff3366;
   flex-direction: row-reverse;
 }
@@ -31,7 +31,7 @@
     width: 350px;;
     height: 300px;
     display: flex;
-    margin: 60px;
+    margin: 150px;
     border-width: 2px;
     border-color: #ff3366;
     grid-area: content;

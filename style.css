@@ -1,0 +1,68 @@
+<style>
+
+{}.roundedvignette{
+  border-color: #ff3366
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 50%;
+  margin: 50px;
+ 
+  
+}
+    
+.bodytext {
+  font-size: 20px;
+  font-color: #ff3366;
+  font-family: 'Markazi Text', serif;
+  display: grid;
+  margin: 15px;}
+  
+.duogrid-1 {
+    width: 350px;
+    height: 300px;
+    display: flex;
+    border-width: 2px;
+    margin: 60px;
+  border-color: #ff3366;
+  flex-direction: row-reverse;
+}
+
+  .duogrid-2 {
+    width: 350px;;
+    height: 300px;
+    display: flex;
+    margin: 60px;
+    border-width: 2px;
+    border-color: #ff3366;
+    grid-area: content;
+    
+  }
+
+.row {
+  display: flex;
+}
+.column {
+  flex: 50%;
+  padding: 5px
+}
+.quote{
+  font-family: 'Special Elite', cursive;
+  font-color: RGB (147, 95, 165);
+  text-align: center;
+  font-size: 18px;
+}
+h1{
+  text-align: center;
+}
+h2{
+  text-align: center;
+  color: white;
+  font-size: 19px;
+  
+}
+h3{
+  text-align: center;
+}
+body {
+  background: linear-gradient(90deg, rgba(89,0,36,1) 0%, rgba(163,26,180,1) 30%, rgba(3,143,210,1) 100%, rgba(3,140,208,1) 100%, rgba(0,212,255,1) 100%);
+}
